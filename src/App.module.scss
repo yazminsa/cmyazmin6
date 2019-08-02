@@ -1,0 +1,127 @@
+* {
+	box-sizing: border-box;
+}
+.title {
+	font-size: 2rem;
+	font-weight: 500;
+	text-align: center;
+	padding-left: 16px;
+}
+
+.top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.countBoards {
+	font-size: 2rem;
+	text-align: right;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.container_boards {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: left;
+}
+.container_add {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 16px 48px;
+}
+
+.board_add {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: left;
+	padding: 16px 48px;
+}
+
+.container_input {
+	padding: 0 8px 0 0;
+}
+
+.result {
+	padding-top: 32px;
+	text-align: center;
+	font-weight: 500;
+	font-size: 1.2rem;
+}
+
+.button_green {
+	background: green !important;
+}
+
+.alignBoard{
+	text-align: left;
+}
+
+
+.botonadd{
+	color: white;
+	background: brown;
+	width: 50px;
+	height: 52px;
+	font-size: 1rem;
+	font-weight: 500;
+	border: none;
+	border-radius: 4px;
+	margin: 0 0 0 0;
+	cursor: pointer;
+	outline: none;
+	text-align: center;
+}
+.datepicker{
+	width: 90%;
+	color: darkslategrey;
+	font-size: 2rem;
+	text-align: center;
+	flex:2 10%;
+}
+.inputBoards {
+	flex:2;
+	width: 30%;
+	background-color: lightyellow;	
+	border: 2px solid black;
+}
+
+.calendarInput {
+	flex:1;
+	width: 20%;
+}
+
+.fileButton {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 20%;
+	padding: 16px 16px 16px 0px;
+	background-color:white;
+}
+
+.container_boards {
+	width: 40%;
+	background-color: white;
+	text-align: center;
+}
+
+.container_table {
+	width: 50%;
+	background-color:white;
+	text-align: center;
+}
+
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
